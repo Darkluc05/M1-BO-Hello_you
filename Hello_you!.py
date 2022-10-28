@@ -15,13 +15,19 @@ def s_end():
             
 
 def s26():
-    print("")
+    print("You have completed the day and live to see another day by making allot of correct choices along the way in this very dangerous world that we live in.")
+    print("Good luck to you tomorow")
     s_end()
 
 def s25():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You see a ridiculous amount of fans for someone who isn’t known at all in the gaming community")
+        print("and you start getting really worried because before you even realise it you are almost completely surrounded by them ")
+        print("you see one final gap to escape the crowd but you also realise that this fame could be the start of a new career. ")
+        print("What do you do")
+        print("1 start running")
+        print("2 take the fame")
         A = input("")
         if A == "1":
             s24()
@@ -33,14 +39,19 @@ def s25():
             print("answer with 1 or 2.")
 
 def s24():
-    valid_input = False 
-    while not valid_input: 
-        print("")
+        print("as you look behind you you see hundreds of people running affter you and all kinds of black cars pulling up eventually they trap you in an alley")
+        print("and the mafia boss steps out.")
+        s_end()
 
 def s23():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You start researching the competition a bit closer and you call one of your good buddies who's good at discovering dark secrets online.")
+        print("He soon comes back showing proof that this competition had weird ties to the mafia.")
+        print(". Which is weird considering this isn’t Italy or America. But he does also tell you that the mafia doesn’t often actually respond badly to these types of things but just gains money out of it ")
+        print("and that you could also gain allot of money from it.")
+        print("1 money")
+        print("2 safety")
         A = input("")
         if A == "1":
             s25()
@@ -54,7 +65,12 @@ def s23():
 def s22():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You start looking at where the competition actually is and you see that it is right around the corner but in a fairly dark alleyway garage.")
+        print("You start second guessing yourself a bit but it is still bright out so its not like you’re going to get stabbed in the middle of the night.")
+        print("You can either.")
+        print("1 go with the flow")
+        print("2  be supiscous ")
+        print("3 do some research")
         A = input("")
         if A == "1":
             s25()
@@ -71,7 +87,12 @@ def s22():
 def s21():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You decide to compete in the lower level competition and you end up finishing second place. ")
+        print("after a very fair battle with the number one You see weirdly enough that there are allot of fans for you.")
+        print("which is weird on such a small competition but you don’t really enjoy fame that much anyway.")
+        print("So you can either avoid the crowd or get smothered in it.")
+        print("1 stay")
+        print("2 go home")
         A = input("")
         if A == "1":
             s25()
@@ -85,13 +106,17 @@ def s21():
 def s20():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You start getting bored of your game. ")
+        print("So you start thinking about how to spice up what you’re doing.")
+        print("the best you can think off is either going golfing or playing the game at a higher level.")
+        print("1 esports")
+        print("2 golf")
         A = input("")
         if A == "1":
-            s11
+            s19()
             valid_input = True
         elif A == "2":
-            s19()
+            s18()
             valid_input = True
         else:
             print("answer with 1 or 2.")
@@ -99,7 +124,11 @@ def s20():
 def s19():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You start searching for different tournaments to compete in and you see the options of low end tournaments or high end tournaments")
+        print("now normally high end tournaments take place at larger events and take planning.")
+        print("but you see one odd one out paying allot of money for a competition that is weirdly enough on the same day.")
+        print("1 low level")
+        print("2 high level")
         A = input("")
         if A == "1":
             s21()
@@ -111,14 +140,20 @@ def s19():
             print("answer with 1 or 2.")
 
 def s18():
-    print("")
+    print("You decide to go golfing and when you arrive you see one of your golf buddies is also there. ")
+    print("You walk up to them and after about an hour of talking and golfing you start giving each other dares like keeping one eye closed.")
+    print("Eventually you get the dare of a happy Gilmore(the run and slam).")
+    print("but in your leap you miss the ball and swing your club through the air falling the ground face first and breaking your neck.")
     s_end()
 
 
 def s17():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("Which sport would you like to play.")
+        print("you see that golf and esports are probably the best options.")
+        print("1 golf")
+        print("2 esports")
         A = input("")
         if A == "1":
             s18()
@@ -132,7 +167,10 @@ def s17():
 def s16():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("You’re at home and you’re looking for something to do. ")
+        print("You see two viable options.")
+        print("1 sport")
+        print("2 game")
         A = input("")
         if A == "1":
             s17()
@@ -144,13 +182,20 @@ def s16():
             print("answer with 1 or 2.")
 
 def s15():
-    print("")
+    print("Now your teacher is completely flipping out and start waving around a random bat in the air. ")
+    print("Now with your angry self you keep shouting at her and start moving you point of interest to her face. ")
+    print("but in her anger she lets go of the bat and it flies in your face. ")
+    print("Causing you to black out.")
     s_end()
     
 def s14():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("14.	You decide to apologize for the fact that you raised your voice.")
+        print("You start calming down but now you’re hearing whispers from everywhere.")
+        print("But you also realise you’re very tired and I could just be you imagining it.")
+        print("1 just move on")
+        print("2 get angry again")
         A = input("")
         if A == "1":
             s13()
@@ -164,7 +209,11 @@ def s14():
 def s13():
     valid_input = False 
     while not valid_input: 
-        print("")
+        print("13.	You decide to ignore the fact they were probably talking about you and they luckily quickly stop.")
+        print("A few hours go by and you’re starting to get really bored and almost falling asleep. ")
+        print("You see an opportunity that after your teacher asked if you were there you could just leave.")
+        print("1 just complete the day")
+        print("2 go back home")
         A = input("")
         if A == "1":
             s26()
