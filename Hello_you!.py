@@ -227,7 +227,7 @@ def s13():
 def s12():
     valid_input = False 
     while not valid_input: 
-        print("12.	You’re sitting down while your teacher is introducing herself and doing her signature start to the lesson.")
+        print("You’re sitting down while your teacher is introducing herself and doing her signature start to the lesson.")
         print("But you start hearing quiet whispers in the back of the class.")
         print("Your almost certain they are talking about you but getting angry at them could cause a scene,")
         print("and especially if they weren’t actually talking about you.")
@@ -282,7 +282,7 @@ def s9():
             s10()
             valid_input = True
         elif A == "2":
-            s12
+            s12()
             valid_input = True
         else:
             print("answer with 1 or 2.")
